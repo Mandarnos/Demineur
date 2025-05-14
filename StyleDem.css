@@ -1,0 +1,38 @@
+/* Fichier CSS demineur internet*/
+
+h2{
+	font-family: "Jersey 10", serif;
+	font-weight: 300;
+	font-size:50px;
+	color:red;
+	text-decoration:underline;
+}
+
+p{
+	text-align:center;
+	
+	
+}
+
+.tab_Pr {
+	margin:auto;
+	
+	
+	
+}
+.tab_dem{
+	display:block;
+	
+	
+}
+
+.no-right-click{
+	pointer-events:none;
+	
+	
+}
+
+.texts{
+	font-family: "Jersey 10", serif;
+	font-size:20px;
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Importation de la police d'ecriture pour les textes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+
+  <!-- Importation des fichiers support-->
+  <link href="styleAcc.css" rel="stylesheet" media="all" type="text/css">
+  <script type="text/javascript" src="ScriptAcc.js"></script>
+
+<!-- Image de profil du site -->
+  <link rel="icon" type="image/png" href="./images/icon_acc.png">
+
+  <meta charset="utf-8">
+  <title>Le Demineur De L'internet</title>
+</head>
+<body>
+  <!-- Le reste du contenu -->
+
+
+  <center> <font size="150px"><h1>Accueil</h1></font></center>
+
+  <center><p class="texts">Choississez le format de jeu pour votre demineur:</p></center>
+<table class="tab-test">
+  <tr>
+	  <td><button id="dem7x7" onclick="fn_transfert(this)" data-row=7 data-col=7 data-Bbm="9"><p class="diff1">7x7</p></button></td>
+    <td><button id="dem10x10" onclick="fn_transfert(this)" data-row=10 data-col=10 data-Bbm="15"><p class="diff2">10x10</p></button></td>
+	  <td><button id="dem20x10" onclick="fn_transfert(this)" data-row=20 data-col=20 data-Bbm="50"><p class="diff3">20x20</p></button></td>
+  </tr>
+</table>
+
+
+
+  <p class="faitpar"> Fait par Benjamin Poilane, James Dubus et Nolann Kerjoant</p>
+  <img src="./images/fond_blanc.png" id="dem_easter_egg" onclick="fn_transfert(this)" onmouseover="fn_easter_egg()" data-row=40 data-col=40 data-Bbm="251"></img>
+</body>
+</html>

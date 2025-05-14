@@ -1,0 +1,73 @@
+.faitpar{
+	text-align: right;
+	font-family: "Jersey 10", serif;
+	font-weight: 400;
+	font-size:20px;
+}
+
+h1{
+	font-family: "Jersey 10", serif;
+	text-decoration:underline;
+	color:red;
+	
+}
+
+b{
+	font-family: "Jersey 10", serif;
+	font-weight: 300;
+	font-size:50px;
+	
+	
+}
+
+.texts{
+	font-family: "Jersey 10", serif;
+	font-weight: 400;
+	font-size:20px;
+}
+
+
+.diff1{
+	text-align: left;
+	font-family: "Jersey 10", serif;
+	font-weight: 400;
+	font-size:20px;
+}
+
+.diff2{
+	text-align: center;
+	font-family: "Jersey 10", serif;
+	font-weight: 400;
+	font-size:20px;
+}
+
+.diff3{
+	text-align: right;
+	font-family: "Jersey 10", serif;
+	font-weight: 400;
+	font-size:20px;
+}
+
+.tab-test{
+	
+	margin:auto;
+	border-spacing: 200px 100px;
+}
+
+
+button {
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+button:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
